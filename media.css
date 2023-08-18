@@ -85,7 +85,7 @@
   .swiper__container {
     padding-top: 100px;
     padding-bottom: 102px;
-    background-image: url(../img/hero_top_1024.jpg);
+    background-image: url(hero_top_1024.jpg);
   }
 
   .swiper__descr {
@@ -107,7 +107,7 @@
   .gallery__container {
     margin-bottom: 75px;
     padding-bottom: 75px;
-    background-image: url(../img/gallery_bcgrd_1024.jpg);
+    background-image: url(gallery_bcgrd_1024.jpg);
   }
 
   .gallery__descr {
@@ -255,7 +255,7 @@
   .swiper__container {
     padding-top: 87px;
     padding-bottom: 87px;
-    background-image: url(../img/hero_top_768.jpg);
+    background-image: url(hero_top_768.jpg);
   }
 
   .swiper__text {
@@ -266,7 +266,7 @@
   .gallery__container {
     margin-bottom: 75px;
     padding-bottom: 75px;
-    background-image: url(../img/gallery_bcgrd_768.jpg);
+    background-image: url(gallery_bcgrd_768.jpg);
   }
 
   .gallery__img:not(:last-child) {
@@ -409,7 +409,7 @@
   .swiper__container {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url(../img/hero_top_320.jpg);
+    background-image: url(hero_top_320.jpg);
   }
 
   .swiper__descr {
