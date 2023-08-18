@@ -1,0 +1,661 @@
+@media (max-width: 1420px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .header-logo {
+    margin-right: 100px;
+  }
+
+  .header__navigation {
+    margin-right: 110px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .header-logo {
+    margin-right: 30px;
+  }
+
+  .header__navigation {
+    margin-right: 40px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+  .container {
+    margin-bottom: 80px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-top: 33px;
+    padding-bottom: 24px;
+  }
+
+  .header__div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+  .header__navigation {
+    max-width: 924px;
+    width: 100%;
+    order: 3;
+    margin-right: 0;
+  }
+
+  .header__nav-item {
+    padding: 0;
+  }
+
+  /* .header__nav-li:not(:last-child) {
+    margin-right: 9.37vw;
+  } */
+
+  .header-logo {
+    margin: 0;
+    margin-bottom: 19px;
+    order: 1;
+    flex: 0 0 50%
+  }
+
+  .header__seatch {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+    order: 1;
+    flex: 0 0 50%
+  }
+
+  .blanchard-logo {
+    width: 188px;
+  }
+
+  .swiper__container {
+    padding-top: 100px;
+    padding-bottom: 102px;
+    background-image: url(../img/hero_top_1024.jpg);
+  }
+
+  .swiper__descr {
+    max-width: 660px;
+  }
+
+  .swiper__text {
+    margin-bottom: 133px;
+  }
+
+  .about__title {
+    margin-bottom: 15px
+  }
+
+  .about__container {
+    margin-bottom: 70px;
+  }
+
+  .gallery__container {
+    margin-bottom: 75px;
+    padding-bottom: 75px;
+    background-image: url(../img/gallery_bcgrd_1024.jpg);
+  }
+
+  .gallery__descr {
+    flex-wrap: wrap;
+  }
+
+  .gallery__title {
+    margin-bottom: 16px;
+  }
+
+  label {
+    padding-left: 0;
+  }
+
+  .gallery__list {
+    margin-bottom: 30px;
+  }
+
+  .catalog__col {
+    flex-direction: column;
+  }
+
+  .catalog__img {
+    max-width: 924px;
+    margin-bottom: 30px;
+  }
+
+  .catalog__picture {
+    margin-right: 0;
+  }
+
+  .catalog__col-text {
+    max-width: 924px;
+  }
+
+  .events__descr {
+    min-height: 685px;
+  }
+
+  .events__descr:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  .events_space,
+  .events-date {
+    font-weight: 400;
+    text-align: end;
+  }
+
+  .events-date {
+    margin-bottom: 5px;
+  }
+
+  .events__theme {
+    margin-bottom: 5px;
+  }
+
+  .events__descr-all {
+    padding: 10px 35px 50px 33px;
+  }
+
+  .events__btn {
+    padding: 2px 1px;
+  }
+
+  .projects__title {
+    padding-top: 0px
+  }
+
+  .projects__text {
+    margin-bottom: 20px;
+  }
+
+  .projects__img {
+    margin-right: 22px;
+  }
+
+  .contacts__descr {
+    flex-direction: column;
+  }
+
+  .projects__container {
+    margin-bottom: 75px;
+  }
+
+  .contacts__form {
+    max-width: 923px;
+    margin-bottom: 30px;
+  }
+
+  .contacts__space {
+    padding-top: 5px;
+    margin-bottom: 9px;
+  }
+
+  .contacts__adress {
+    font-size: 14px;
+  }
+
+  .contacts__title {
+    margin-bottom: 3px;
+  }
+
+  .contacts__btn {
+    max-width: 343px;
+    width: 100%;
+  }
+
+  .contacts__container {
+    margin-bottom: 5px;
+  }
+
+  .footer__container {
+    padding: 0 50px 0 50px;
+    margin-bottom: 0;
+    min-height: 140px;
+    height: 100%;
+    align-items: center;
+  }
+
+  .footer__logo {
+    padding-top: 13px;
+  }
+
+  .footer__svg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 960px) {
+
+  .header__nav-li:not(:last-child) {
+    margin-right: 6.73vw;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .header__nav-li:not(:last-child) {
+    margin-right: 5.73vw;
+  }
+
+  .swiper__container {
+    padding-top: 87px;
+    padding-bottom: 87px;
+    background-image: url(../img/hero_top_768.jpg);
+  }
+
+  .swiper__text {
+    margin-bottom: 131px;
+    max-width: 540px;
+  }
+
+  .gallery__container {
+    margin-bottom: 75px;
+    padding-bottom: 75px;
+    background-image: url(../img/gallery_bcgrd_768.jpg);
+  }
+
+  .gallery__img:not(:last-child) {
+    margin-right: 34px;
+  }
+
+  .catalog__text {
+    margin-bottom: 40px;
+  }
+
+  .catalog__artist {
+    margin-bottom: 6px;
+  }
+
+  .catalog__atrist-years {
+    margin-bottom: 8px;
+  }
+
+  .events__card {
+    flex-direction: column;
+  }
+
+  .events__descr {
+    max-width: 668px;
+    min-height: 530px;
+  }
+
+  .events__img {
+    max-width: 668px;
+  }
+
+  .events__theme {
+    margin-bottom: 15px;
+  }
+
+  .events__descr-all {
+    min-height: 320px;
+  }
+
+  .events__info {
+    min-height: 229px;
+  }
+
+  .events__descr:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 27px;
+  }
+
+  .projects__text {
+    max-width: 659px;
+  }
+
+  .projects__text {
+    margin-bottom: 27px;
+  }
+
+  .projects__partners-title {
+    margin-bottom: 31px;
+  }
+
+  .projects__img {
+    max-width: 316px;
+  }
+
+  .projects__img {
+    margin-right: 0px;
+  }
+
+  .project-media {
+    margin-right: 30px;
+  }
+
+  .projects__container {
+    margin-bottom: 80px;
+  }
+
+  .contacts__form {
+    flex-direction: column;
+  }
+
+  .contacts__form-class {
+    max-width: 668px;
+    margin-bottom: 11px;
+  }
+
+  .contacts__input {
+    max-width: 323px;
+  }
+
+  .contacts__btn {
+    max-width: 316px;
+  }
+
+  .contacts__container {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 620px) {
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .header__container {
+    padding-top: 16px;
+    padding-bottom: 5px;
+  }
+
+  .header-logo {
+    margin: 0;
+  }
+
+  .blanchard-logo {
+    width: 66%;
+  }
+
+  .header__seatch {
+    padding-top: 0;
+  }
+
+  .header__seatch-svg {
+    width: 18px;
+  }
+
+  .header__nav {
+    overflow-x: scroll;
+  }
+
+  .header__nav-item {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .header__nav-li:not(:last-child) {
+    margin-right: 7.73vw;
+  }
+
+  .swiper__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/hero_top_320.jpg);
+  }
+
+  .swiper__descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .swiper__text {
+    margin-bottom: 40px;
+    max-width: 250px;
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+
+  }
+
+  .swiper__btn {
+    height: 40px;
+    width: 200px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .about__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .swiper__title {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .container {
+    margin-bottom: 50px;
+  }
+
+  .header__container {
+    margin-bottom: 0;
+  }
+
+  .about__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .about__container {
+    margin-bottom: 40px;
+  }
+
+  .gallery__container {
+    padding-top: 50px;
+    padding-bottom: 48px;
+  }
+
+  .gallery__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 13px;
+  }
+
+  .gallery__descr-img {
+    flex-direction: column;
+  }
+
+  .gallery__img {
+    justify-content: center;
+  }
+
+  .gallery__img:not(:last-child) {
+    margin-bottom: 25px;
+    margin-right: 0;
+  }
+
+  .catalog__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 13px;
+  }
+
+  .catalog__text {
+    margin-bottom: 29px;
+  }
+
+  .catalog__img {
+    margin-bottom: 17px;
+  }
+
+  .catalog__atrist-years {
+    margin-bottom: 15px;
+  }
+
+  .catalog__col:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .catalog__artist {
+    max-width: 285px;
+  }
+
+  .events__info {
+    min-height: 380px;
+  }
+
+  .events__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+
+  .events__descr-all {
+    padding: 14px 18px 47px 21px;
+  }
+
+  .events-date {
+    margin-bottom: 9px;
+  }
+
+  .events__theme {
+    margin-bottom: 5px;
+  }
+
+  .events__descr:not(:last-child) {
+    margin-bottom: 21px;
+  }
+
+  .projects__container {
+    margin-bottom: 40px;
+  }
+
+  .projects__title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .projects__text {
+    margin-bottom: 23px;
+  }
+
+  .projects__partners-title {
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .project-media {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .contacts__container {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+  }
+
+  .contacts__title {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .contacts__space {
+    padding-top: 3px;
+    margin-bottom: 13px;
+  }
+
+  .contacts__form {
+    padding-top: 0;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .contacts__form-class {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .contacts__input {
+    height: 40px;
+  }
+
+  .contacts__input:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .contacts__btn {
+    max-width: 130px;
+    height: 40px;
+    padding: 7px;
+    font-size: 12px;
+    text-overflow: clip;
+    overflow: hidden;
+  }
+
+  .contacts__link-title {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .contacts__svg-ui {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer__container {
+    margin-bottom: 0;
+    padding-top: 18px;
+    align-items: flex-start;
+  }
+
+  .footer__descr {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .footer__svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer__logo {
+    text-align: center;
+  }
+
+  .footer__logo-img {
+    max-width: 56%;
+  }
+
+  .footer__list-item {
+    margin-bottom: 3px;
+  }
+
+}
