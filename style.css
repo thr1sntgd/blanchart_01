@@ -155,7 +155,7 @@ body {
 /* swiper */
 
 .swiper {
-  background-image: url(../img/hero_top_1920.jpg);
+  background-image: url(hero_top_1920.jpg);
   background-size: cover;
 }
 
@@ -217,7 +217,7 @@ body {
 /* gallery */
 
 .gallery {
-  background-image: url(../img/gallery_bcgrd_1920.jpg);
+  background-image: url(gallery_bcgrd_1920.jpg);
   background-size: cover;
 }
 
@@ -306,7 +306,7 @@ label {
 
 .custom-checkbox>input:checked+span::before {
   border-color: var(--dark-pink);
-  background-image: url(../img/Ellipse\ 16.svg);
+  background-image: url(Ellipse\ 16.svg);
   transition: border-color .3s ease-in-out;
 }
 
